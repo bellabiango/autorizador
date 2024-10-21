@@ -24,13 +24,22 @@ A aplicação fornece endpoints REST para processar transações e gerenciar sal
 ## Usando o GitHub Codespaces
 Você pode desenvolver e executar esta aplicação diretamente no GitHub Codespaces:
 
-No repositório GitHub, clique em "Code" e selecione "Codespaces".
-Crie um novo Codespace ou abra um existente.
-O ambiente já estará configurado com todas as dependências necessárias.
+ - No repositório GitHub, clique em "Code" e selecione "Codespaces".
+   - Crie um novo Codespace ou abra um existente. (O ambiente já estará configurado com todas as dependências necessárias.)
+ - Execute clicando no play da IDE.
 
-### Configuração de Variáveis de Ambiente
-Certifique-se de que as seguintes variáveis de ambiente estão configuradas:
- - MONGODB_URI: String de conexão com o MongoDB.
+Você pode acessar a aplicação clicando no link fornecido pelo Codespaces quando a aplicação estiver em execução.
+
+A documentação da API está disponível através do path do Swagger UI: /swagger-ui/index.html
+
+
+## Configuração do Ambiente local
+
+### Clonando o Repositório
+
+```bash
+git clone https://github.com/bellabiango/autorizador.git
+```
 
 ### Usando o Gradle
 No terminal, execute:
@@ -39,11 +48,6 @@ No terminal, execute:
 ./gradlew bootRun
 ```
 A aplicação estará disponível em http://localhost:8080.
-
-### Usando o Codespaces
-No Codespace, a porta será encaminhada automaticamente. Você pode acessar a aplicação clicando no link fornecido pelo Codespaces quando a aplicação estiver em execução.
-
-A documentação da API está disponível através do Swagger UI: http://localhost:8080/swagger-ui/index.html
 
 
 
