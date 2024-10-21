@@ -51,6 +51,10 @@ No terminal, execute:
 A aplicação estará disponível em http://localhost:8080.
 
 
+## Diagrama de Transações Simultâneas
+https://www.mermaidchart.com/raw/dfdf1b1a-c94b-448d-902c-aaa029d665d5?theme=light&version=v0.1&format=svg
+
+
 
 
 
