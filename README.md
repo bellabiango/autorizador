@@ -26,7 +26,8 @@ Você pode desenvolver e executar esta aplicação diretamente no GitHub Codespa
 
  - No repositório GitHub, clique em "Code" e selecione "Codespaces".
    - Crie um novo Codespace ou abra um existente. (O ambiente já estará configurado com todas as dependências necessárias.)
- - Execute clicando no play da IDE.
+ - Execute clicando em *Executar e Depurar* da IDE.
+ - Selecione a extensão Java, caso seja a primeira execução.
 
 Você pode acessar a aplicação clicando no link fornecido pelo Codespaces quando a aplicação estiver em execução.
 
