@@ -1,0 +1,19 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+  },
+  "name": "Java Codespace",
+  "forwardPorts": [8080],
+  "portsAttributes": {
+    "8080": {
+      "label": "Aplicação Spring Boot",
+      "onAutoForward": "openBrowser",
+      "elevateIfNeeded": true,
+      "openInBrowser": true,
+      "browserPath": "/swagger-ui/index.html"
+    }
+  },
+  "extensions": [
+    "vscjava.vscode-java-pack"
+  ]
+}
