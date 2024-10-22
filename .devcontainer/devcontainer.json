@@ -1,19 +1,13 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {
-  },
-  "name": "Java Codespace",
+  "name": "Autorizador Caju Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/java:21",  
   "forwardPorts": [8080],
-  "portsAttributes": {
-    "8080": {
-      "label": "Aplicação Spring Boot",
-      "onAutoForward": "openBrowser",
-      "elevateIfNeeded": true,
-      "openInBrowser": true,
-      "browserPath": "/swagger-ui/index.html"
-    }
+  "containerEnv": {
+    "MONGODB_URI": "${MONGODB_URI}"
   },
+  "postCreateCommand": "./gradlew build", 
   "extensions": [
+    "vscjava.vscode-spring-boot-dashboard",
     "vscjava.vscode-java-pack"
   ]
 }
