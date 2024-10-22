@@ -3,7 +3,7 @@
   "image": "mcr.microsoft.com/devcontainers/java:21",  
   "forwardPorts": [8080],
   "containerEnv": {
-    "MONGODB_URI": "${MONGODB_URI}"
+    "MONGODB_URI": "mongodb+srv://usercaju:yT2XduQ5vQS14bbn@developerday.ecbt8.mongodb.net/caju"
   },
   "postCreateCommand": "./gradlew build", 
   "extensions": [
