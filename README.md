@@ -26,10 +26,10 @@ Você pode desenvolver e executar esta aplicação diretamente no GitHub Codespa
 
  - No repositório GitHub, clique em "Code" e selecione "Codespaces".
    - Crie um novo Codespace ou abra um existente. (O ambiente já estará configurado com todas as dependências necessárias.)
- - Execute clicando em *Executar e Depurar* da IDE.
+ - Execute clicando em *Executar e Depurar* (icone ▶️ ao lado esquerdo) da IDE.
  - Selecione a extensão Java, caso seja a primeira execução.
 
-Você pode acessar a aplicação clicando no link fornecido pelo Codespaces quando a aplicação estiver em execução.
+Você pode acessar a aplicação clicando no link fornecido pelo Codespaces na porta 8080 quando a aplicação estiver em execução.
 
 A documentação da API está disponível através do path do Swagger UI: /swagger-ui/index.html
 
@@ -52,7 +52,9 @@ A aplicação estará disponível em http://localhost:8080.
 
 
 ## Diagrama de Transações Simultâneas
-https://www.mermaidchart.com/raw/dfdf1b1a-c94b-448d-902c-aaa029d665d5?theme=light&version=v0.1&format=svg
+Documentação completa: https://github.com/bellabiango/autorizador.wiki.git
+
+Diagrama: https://www.mermaidchart.com/raw/dfdf1b1a-c94b-448d-902c-aaa029d665d5?theme=light&version=v0.1&format=svg
 
 
 
