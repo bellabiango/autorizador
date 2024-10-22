@@ -11,12 +11,14 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
+@RequestMapping("/transactions")
+@CrossOrigin(origins = "*")
 public class TransactionController implements TransactionDocumentation {
 
     @Autowired
     private TransactionService transactionService;
 
-    @PostMapping("/transaction")
+    @PostMapping
     public ResponseEntity<Map<String, String>> processTransaction(@RequestBody Transaction transaction) {
         String code = transactionService.processTransaction(transaction);
         Map<String, String> response = new HashMap<>();

@@ -5,15 +5,10 @@
   "portsAttributes": {
     "8080": {
       "label": "Aplicação Spring Boot",
-      "onAutoForward": "notify",
-      "visibility": "public"
+      "onAutoForward": "notify"
     }
   },
   "containerEnv": {
     "MONGODB_URI": "mongodb+srv://usercaju:yT2XduQ5vQS14bbn@developerday.ecbt8.mongodb.net/caju"
-  },
-  "extensions": [
-    "vscjava.vscode-spring-boot-dashboard",
-    "vscjava.vscode-java-pack"
-  ]
+  }
 }
