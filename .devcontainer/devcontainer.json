@@ -15,15 +15,5 @@
   "extensions": [
     "vscjava.vscode-spring-boot-dashboard",
     "vscjava.vscode-java-pack"
-  ],
- "settings": {
-    "java.home": "/usr/local/sdkman/candidates/java/current",
-    "java.configuration.runtimes": [
-      {
-        "name": "JavaSE-21",
-        "path": "/usr/local/sdkman/candidates/java/current",
-        "default": true
-      }
-    ]
-  }
+  ]
 }
